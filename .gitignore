@@ -1,0 +1,14 @@
+### IDE's
+.vscode
+.code
+.idea
+
+### NodeJS Modules
+node_modules
+*.lock
+package-lock.json
+
+### FiveM
+.yarn.installed
+.dist
+ui
