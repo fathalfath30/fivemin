@@ -15,9 +15,24 @@
 //
 */
 import React from 'react';
+import '../../style/components/content/Dashboard.scss';
 
 const Dashboard: React.FC = () => {
-  	return (<h1>Dashboard Content</h1>);
+	return (
+		<div className='container main-container text-center'>
+			<div className="row lg-12">
+				<div className="col">
+					Total Player
+				</div>
+				<div className="col">
+					Total Admin
+				</div>
+				<div className="col">
+					Total Banned Player
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Dashboard;

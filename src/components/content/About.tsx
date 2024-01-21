@@ -17,7 +17,7 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  	return (<h1>About Content</h1>);
+	return (<h1>About Content</h1>);
 }
 
 export default About;

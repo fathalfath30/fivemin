@@ -15,12 +15,12 @@
 //
 */
 import React from 'react';
-import {Utils} from '../../utils'
+import { Utils } from '../../utils'
 import $ from 'jquery';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Index: React.FC = () => {
-  	return (<h1>Index Content</h1>);
+	return (<h1>Index Content</h1>);
 }
 
 export default Index;

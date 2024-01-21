@@ -17,7 +17,7 @@
 import React from 'react';
 
 const DevTools: React.FC = () => {
-  	return (<h1>DevTools Content</h1>);
+	return (<h1>DevTools Content</h1>);
 }
 
 export default DevTools;

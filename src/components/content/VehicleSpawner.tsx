@@ -17,7 +17,7 @@
 import React from 'react';
 
 const VehicleSpanwer: React.FC = () => {
-  	return (<h1>VehicleSpanwer Content</h1>);
+	return (<h1>VehicleSpanwer Content</h1>);
 }
 
 export default VehicleSpanwer;

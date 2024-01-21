@@ -16,8 +16,8 @@
 */
 import React from 'react';
 
-const Weapon: React.FC = () => {
-	return (<h1>Weapon Content</h1>);
+const Peds: React.FC = () => {
+	return (<h1>Peds Content</h1>);
 }
 
-export default Weapon;
+export default Peds;

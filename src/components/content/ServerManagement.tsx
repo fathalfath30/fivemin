@@ -17,7 +17,7 @@
 import React from 'react';
 
 const ServerManagement: React.FC = () => {
-  	return (<h1>ServerManagement Content</h1>);
+	return (<h1>ServerManagement Content</h1>);
 }
 
 export default ServerManagement;

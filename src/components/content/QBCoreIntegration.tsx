@@ -16,8 +16,8 @@
 */
 import React from 'react';
 
-const Peds: React.FC = () => {
-  	return (<h1>Peds Content</h1>);
+const QBCoreIntegration: React.FC = () => {
+	return (<h1>QBCoreIntegration Content</h1>);
 }
 
-export default Peds;
+export default QBCoreIntegration;

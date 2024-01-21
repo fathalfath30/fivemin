@@ -17,7 +17,7 @@
 import React from 'react';
 
 const PlayerManagement: React.FC = () => {
-  	return (<h1>PlayerManagement Content</h1>);
+	return (<h1>PlayerManagement Content</h1>);
 }
 
 export default PlayerManagement;
