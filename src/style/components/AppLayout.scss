@@ -1,39 +1,39 @@
 .body-sidebar {
-    height: 598px;
-    width: 260px;
-  
-    $border: 1px solid rgba(255, 255, 255, 0.4);
-    border-right: $border;
+  height: 598px;
+  width: 260px;
+
+  $border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: $border;
+}
+
+.body-content {
+  width: 100% !important;
+  height: 598px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.body-sidebar,
+.body-content {
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 7px;
   }
-  
-  .body-content {
-    height: 598px;
-  
-    padding-left: 10px;
-    padding-right: 10px;
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
   }
-  
-  .body-sidebar,
-  .body-content {
-    overflow: auto;
-  
-    &::-webkit-scrollbar {
-      width: 7px;
-    }
-  
-    /* Track */
-    &::-webkit-scrollbar-track {
-      background: #f1f1f1;
-    }
-  
-    /* Handle */
-    &::-webkit-scrollbar-thumb {
-      background: #888;
-    }
-  
-    /* Handle on hover */
-    &::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888;
   }
-  
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
