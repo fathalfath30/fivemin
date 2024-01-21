@@ -12,29 +12,19 @@
 --  Github : https://github.com/fathalfath30
 --  Gitlab : https://gitlab.com/Fathalfath30
 --
-fx_version "cerulean"
-lua54 'yes'
-games {"gta5"}
+FiveMin = FiveMin or {}
 
-description "f30fm_admin"
-author "fathalfath30 <fathalfath30@gmail.com>"
-version '1.0.0'
-repository 'git@github.com:f30studio/f30fm_admin.git'
+FiveMin.Config = {}
+-- interface language
+-- current available language: 'en', 'id'
+FiveMin.Config.Lang = 'en'
 
-shared_scripts {
-  'shared/locale/locale.lua',
-  'shared/locale/en.lua',
-  'shared/locale/*.lua',
-  'shared/config.lua'
-}
+-- enable QBCore integration
+FiveMin.Config.QbCoreIntegration = true
 
-client_script {
-  'client/qb-core.lua',
-  'client/ui.lua',
-  
-  'client/_main.lua'
-}
-server_script "server/**/*.lua"
+-- you can change the hotkey in here
+-- default: "e"
+FiveMin.Config.Hotkey = 51
 
-files { 'ui/**/*' }
-ui_page 'ui/index.html'
+-- and change the admin command in here
+FiveMin.Config.Command = 'fivemin'
