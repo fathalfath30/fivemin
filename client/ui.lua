@@ -13,24 +13,16 @@
 --  Gitlab : https://gitlab.com/Fathalfath30
 --
 --[[ set default variable ]]
+FiveMin = FiveMin or {}
+FiveMin.Config = FiveMin.Config or {}
+
+FiveMin.QBCore = FiveMin.QBCore or {};
 local display = false;
 
---[[ 
-    get resource from the fxmanifest.lua
-    you'll need to define: 
-        - app_command : this variables will handle the command name
-        - app_hotkey : this variable will handle hotkey
- ]]
-local resourceName = GetCurrentResourceName();
-local command = GetResourceMetadata(resourceName, 'app_command');
-local hotkey = GetResourceMetadata(resourceName, 'app_hotkey');
-
---[[ 
-    ToggleNUI
-    This function is use for show or hide the NUI it will set "display"  variable from "false" to "true" vice versa, 
-    and then SetNuiFocus as the "display" variable so you can use mouse and interact with the UI and lasting it will
-    SendNUIMessage this will trigger the window.addEventListener("message", (){})
-]]
+--- ToggleNUI
+--- This function is use for show or hide the NUI it will set "display"  variable from "false" to "true" vice versa, 
+--- and then SetNuiFocus as the "display" variable so you can use mouse and interact with the UI and lasting it will
+--- SendNUIMessage this will trigger the window.addEventListener("message", (){})
 function ToggleNUI()
     display = not display
     SetNuiFocus(display, display)
@@ -56,35 +48,32 @@ function ToggleNUI()
     })
 end
 
---[[ registering command using app_command from the fxmanifest.lua ]]
-RegisterCommand(command, function ()
+--- registering command using app_command from the fxmanifest.lua
+RegisterCommand(FiveMin.Config.Command, function ()
     ToggleNUI()
-end)
+end, false)
 
---[[ 
-    registering the NUI callback, it will executed when your UI perform http request in this case
-    it will create endpoint "/toggle-nui-callback"
- ]]
+--- registering the NUI callback, it will executed when your UI perform http request in this case
+--- it will create endpoint "/toggle-nui-callback"
+--- @param _ any
+--- @param cb function
 RegisterNUICallback('toggle-nui-callback', function (_, cb)
     ToggleNUI()
 end)
 
---[[
-    create new thread to register hotkey, the hotkey it self defined in fxmanifest.lua
-]]
+--- create new thread to register hotkey, the hotkey it self defined in fxmanifest.lua
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
         if hotkey ~= "" then
-            if IsControlJustPressed(1, tonumber(hotkey)) then
+            if IsControlJustPressed(1, tonumber(FiveMin.Config.Hotkey)) then
                 ToggleNUI()
             end
         end
     end
 end)
---[[
-    create new thread to disable some controll while the NUI content are showing
-]]
+
+--- create new thread to disable some controll while the NUI content are showing
 Citizen.CreateThread(function()
     while display do
         Citizen.Wait(0)
@@ -99,8 +88,11 @@ Citizen.CreateThread(function()
     end
 end)
 
-local devEnableUI = true
-Citizen.CreateThread(function ()
-    Citizen.Wait(500)
-    ToggleNUI()
-end)
+
+-- Citizen.CreateThread(function ()
+--     if not display then
+--       ToggleNUI()
+--     end
+
+--     Citizen.Wait(500)
+-- end)
