@@ -15,19 +15,18 @@
 //
 */
 import React from 'react';
-import {Utils} from '../utils'
+import { Utils } from '../utils'
 import $ from 'jquery';
 
 import '../style/components/app.scss';
-
-import ContentBody from './AppLayout';
 import AppRouter from './AppRouter';
-
+import { useTranslation } from 'react-i18next';
 const App: React.FC = () => {
 	// create close container
-	const toggleContainer = async ()=> {
+	const { t, i18n } = useTranslation();
+	const toggleContainer = async () => {
 		let res = await Utils.RequestNUI('toggle-nui-callback');
-		if (!res.ok){
+		if (!res.ok) {
 			console.log(`error while fetching data with status: ${res.status}`);
 			return;
 		}
@@ -40,8 +39,8 @@ const App: React.FC = () => {
 		let data = evt.data;
 		console.log(`new "message" events:`, JSON.stringify(data));
 		let container = $("#app-container");
-		if (data.action === 'hide-display-nui'){
-			if (data.data.displayNui){
+		if (data.action === 'hide-display-nui') {
+			if (data.data.displayNui) {
 				container.show();
 				container.css('display', 'flex');
 			} else {
@@ -51,22 +50,22 @@ const App: React.FC = () => {
 		}
 	});
 
-  	return (
+	return (
 		<div className='app-container' id="app-container">
 			<div className='background'></div>
 			<div className='content'>
 				<div className='content-header'>
-					<h3>F30 FiveM Admin Menu</h3>
+					<h3>FiveMin - FiveM Admin Menu</h3>
 				</div>
 				<div className='content-body'>
-					<AppRouter/>
+					<AppRouter />
 				</div>
 				<div className='content-footer'>
-					<button className='btn btn-primary' onClick={toggleContainer}>Close</button>
+					<button className='btn btn-primary' onClick={toggleContainer}>{t('main_ui.close_button')}</button>
 				</div>
 			</div>
 		</div>
-  	);
+	);
 }
 
 export default App;

@@ -17,17 +17,17 @@
 export const Utils = {
 	// RequestNUI
 	// this async function will used to send request using json format
-    RequestNUI: async (endpoint:string, data?:any)=>{
-        const resourceName = (window as any).GetParentResourceName ? (window as any).GetParentResourceName() : "nui-frame-app";
+	RequestNUI: async (endpoint: string, data?: any) => {
+		const resourceName = (window as any).GetParentResourceName ? (window as any).GetParentResourceName() : "nui-frame-app";
 		return await fetch(`https://${resourceName}/${endpoint}`, {
 			method: "post",
 			headers: {
-			  "Content-Type": "application/json; charset=UTF-8",
+				"Content-Type": "application/json; charset=UTF-8",
 			},
 			body: JSON.stringify(data),
 		});
-    },
-	BaseUrl: (path ?:string) => {
+	},
+	BaseUrl: (path?: string) => {
 		if (path === null || path === undefined || path === '') {
 			return window.location.pathname;
 		}

@@ -1,0 +1,15 @@
+{
+  "main_ui": {
+    "close_button": "Close",
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "player_management": "Player Management",
+      "server_management": "Server Management",
+      "vehicle_spawner": "Vehicle Spanwer",
+      "peds": "Peds",
+      "weapon": "Weapon",
+      "devs_tools": "Devs Tools",
+      "about": "About"
+    }
+  }
+}

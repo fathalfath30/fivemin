@@ -14,13 +14,23 @@
 //  Gitlab : https://gitlab.com/Fathalfath30
 //
 */
-import ReactDOM from 'react-dom/client';
-import App from './components/App';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import enTranslation from './locale/en.json'
 
-// import global font and style here
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/main.scss';
-import './style/fonts.scss';
-import './i18n';
+const resources = {
+  en: {
+    translation: enTranslation,
+  }
+}
 
-ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'en',
+  fallbackLng: 'en',
+  interpolation: {
+    escapeValue: false,
+  },
+});
+
+export default i18n;

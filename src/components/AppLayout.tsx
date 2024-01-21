@@ -15,46 +15,62 @@
 //
 */
 import React from 'react';
-import {Utils} from '../utils'
+import { Utils } from '../utils'
 import { Outlet, Link } from "react-router-dom";
-
-
 import '../style/components/AppLayout.scss';
+import { useTranslation } from 'react-i18next';
 
 const AppLayout: React.FC = () => {
-  	return (
-		<>
+    const { t, i18n } = useTranslation();
+    return (
+        <>
             <div className='body-sidebar'>
                 <li>
-                    <Link to={Utils.BaseUrl("dashboard")}>Dashboard</Link>
+                    <Link to={Utils.BaseUrl("dashboard")}>
+                        {t('main_ui.sidebar.dashboard')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("player-management")}>Player Mangement</Link>
+                    <Link to={Utils.BaseUrl("player-management")}>
+                        {t('main_ui.sidebar.player_management')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("server-marnagement")}>Server Management</Link>
+                    <Link to={Utils.BaseUrl("server-marnagement")}>
+                        {t('main_ui.sidebar.server_management')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("vehicle-spawner")}>Vehicle Spawner</Link>
+                    <Link to={Utils.BaseUrl("vehicle-spawner")}>
+                        {t('main_ui.sidebar.vehicle_spawner')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("peds")}>Peds</Link>
+                    <Link to={Utils.BaseUrl("peds")}>
+                        {t('main_ui.sidebar.peds')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("weapon")}>Weapon</Link>
+                    <Link to={Utils.BaseUrl("weapon")}>
+                        {t('main_ui.sidebar.weapon')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("devs-tools")}>Devs Tools</Link>
+                    <Link to={Utils.BaseUrl("devs-tools")}>
+                        {t('main_ui.sidebar.devs_tools')}
+                    </Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("about")}>About</Link>
+                    <Link to={Utils.BaseUrl("about")}>
+                        {t('main_ui.sidebar.about')}
+                    </Link>
                 </li>
             </div>
             <div className='body-content'>
                 <Outlet />
             </div>
         </>
-  	);
+    );
 }
 
 export default AppLayout;
