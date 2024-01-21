@@ -14,3 +14,4 @@
 --
 
 --[[ Add server side logic here! ]]
+-- print(Lang:T())
