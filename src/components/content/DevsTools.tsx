@@ -16,8 +16,8 @@
 */
 import React from 'react';
 
-const AdminList: React.FC = () => {
-  	return (<h1>AdminList Content</h1>);
+const DevTools: React.FC = () => {
+  	return (<h1>DevTools Content</h1>);
 }
 
-export default AdminList;
+export default DevTools;

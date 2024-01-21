@@ -16,7 +16,6 @@
 */
 import React from 'react';
 import {Utils} from '../utils'
-import $ from 'jquery';
 import { Outlet, Link } from "react-router-dom";
 
 
@@ -27,25 +26,28 @@ const AppLayout: React.FC = () => {
 		<>
             <div className='body-sidebar'>
                 <li>
-                    <Link to={Utils.BaseUrl()}>Home</Link>
+                    <Link to={Utils.BaseUrl("dashboard")}>Dashboard</Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("admin-list")}>Admin Management</Link>
+                    <Link to={Utils.BaseUrl("player-management")}>Player Mangement</Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("admin-list")}>Player Mangement</Link>
+                    <Link to={Utils.BaseUrl("server-marnagement")}>Server Management</Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("admin-list")}>Server Management</Link>
+                    <Link to={Utils.BaseUrl("vehicle-spawner")}>Vehicle Spawner</Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("admin-list")}>Vehicle Spawner</Link>
+                    <Link to={Utils.BaseUrl("peds")}>Peds</Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("admin-list")}>Weapon Spanwer</Link>
+                    <Link to={Utils.BaseUrl("weapon")}>Weapon</Link>
                 </li>
                 <li>
-                    <Link to={Utils.BaseUrl("admin-list")}>About</Link>
+                    <Link to={Utils.BaseUrl("devs-tools")}>Devs Tools</Link>
+                </li>
+                <li>
+                    <Link to={Utils.BaseUrl("about")}>About</Link>
                 </li>
             </div>
             <div className='body-content'>
