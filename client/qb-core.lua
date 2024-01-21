@@ -17,29 +17,29 @@ FiveMin.QBCore = FiveMin.QBCore or {}
 FiveMin.QBCore.IsReady = false
 
 --- checking qb-core is exists or not
-Citizen.CreateThread(function ()
+Citizen.CreateThread(function()
   while true do
     local resourceState = GetResourceState("qb-core")
     FiveMin.QBCore.IsReady = (resourceState == 'started')
     if resourceState == 'started' then
-        print('QB-Core resource is loaded and started!')
-        break
+      print('QB-Core resource is loaded and started!')
+      break
     elseif resourceState == 'missing' then
-        print('QB-Core resource is missing!')
-        break
+      print('QB-Core resource is missing!')
+      break
     end
     -- Add a delay to avoid constant checking and reduce performance impact
     Citizen.Wait(1000)
   end
 end)
 
-FiveMin.QBCore.ResetHungerThirst = function ()
+FiveMin.QBCore.ResetHungerThirst = function()
   TriggerServerEvent('hospital:server:resetHungerThirst')
 end
 
-FiveMin.QBCore.ResetHealthArmor = function ()
+FiveMin.QBCore.ResetHealthArmor = function()
   local ped = GetPlayerPed(-1)
-  
+
   SetEntityHealth(ped, ped)
   SetPedArmour(ped, 100)
   TriggerServerEvent('QBore:UpdatCePlayer')

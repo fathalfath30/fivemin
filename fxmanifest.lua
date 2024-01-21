@@ -14,7 +14,7 @@
 --
 fx_version "cerulean"
 lua54 'yes'
-games {"gta5"}
+games { "gta5" }
 
 description "f30fm_admin"
 author "fathalfath30 <fathalfath30@gmail.com>"
@@ -31,7 +31,7 @@ shared_scripts {
 client_script {
   'client/qb-core.lua',
   'client/ui.lua',
-  
+
   'client/_main.lua'
 }
 server_script "server/**/*.lua"

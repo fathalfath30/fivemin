@@ -20,7 +20,7 @@ FiveMin.FiveMin.Config = FiveMin.FiveMin.Config or {}
 
 FiveMin.QBCore = FiveMin.QBCore or {};
 
-RegisterCommand("laper", function ()
+RegisterCommand("laper", function()
   FiveMin.QBCore.ResetHealthArmor()
   FiveMin.QBCore.ResetHungerThirst()
 end, false)

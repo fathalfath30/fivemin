@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Development\josgc\master-server-windows\server\FXServer.exe C:\Development\josgc\master-server-windows\server-data\resources\[system]\[builders]\yarn\yarn_cli.js install --ignore-scripts --cache-folder C:\Development\josgc\master-server-windows\server-data\cache\yarn-cache --mutex file:C:\Development\josgc\master-server-windows\server-data\cache\yarn-mutex
+  C:\Development\josgc\master-server-windows\server\FXServer.exe C:\Development\josgc\master-server-windows\server-data\resources\[cfx-default]\[system]\[builders]\yarn\yarn_cli.js install --ignore-scripts --cache-folder C:\Development\josgc\master-server-windows\server-data\cache\yarn-cache --mutex file:C:\Development\josgc\master-server-windows\server-data\cache\yarn-mutex
 
 PATH: 
-  C:\Users\FATHAL~1\AppData\Local\Temp\yarn--1703567886925-0.7618317645922918;C:\Development\josgc\master-server-windows\node_modules\.bin;C:\Users\fathalfath30\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\fathalfath30\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;c:\python\python311\scripts\;c:\python\python311\;c:\program files (x86)\common files\intel\shared libraries\redist\intel64\compiler;c:\program files (x86)\common files\oracle\java\javapath;c:\programdata\oracle\java\javapath;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files\nvidia corporation\nvidia nvdlisr;c:\program files (x86)\windows kits\8.1\windows performance toolkit\;c:\program files\microsoft sql server\120\tools\binn\;c:\program files\microsoft sql server\130\tools\binn\;c:\xampp8\php;c:\programdata\composersetup\bin;c:\kubectl;c:\programdata\chocolatey\bin;c:\program files\docker\docker\resources\bin;c:\programdata\bin;c:\program files\dotnet\;c:\program files\microsoft sql server\150\tools\binn\;c:\program files\microsoft sql server\client sdk\odbc\170\tools\binn\;c:\users\fathalfath30\appdata\local\veniceunleashed\client;c:\program files\postgresql\15\bin;c:\program files\postgresql\15\lib;c:\program files\rabbitmq server\rabbitmq_server-3.12.1\sbin;c:\program files\kubernetes\minikube;c:\program files\go\bin;c:\program files\putty\;c:\program files\git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Users\fathalfath30\AppData\Local\pnpm;C:\Users\fathalfath30\scoop\shims;C:\Users\fathalfath30\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2020.3.1\bin;C:\Program Files\JetBrains\GoLand 2021.1.3\bin;C:\Program Files\JetBrains\RubyMine 2021.3.2\bin;C:\Users\fathalfath30\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\DataGrip 2022.1.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\bin;C:\Users\fathalfath30\AppData\Local\gitkraken\bin;C:\Users\fathalfath30\go\bin;C:\Users\fathalfath30\AppData\Roaming\Composer\vendor\bin;C:\Users\fathalfath30\.dotnet\tools;C:\Program Files\JetBrains\PyCharm 2023.1.1\bin;C:\Users\fathalfath30\AppData\Local\GitHubDesktop\bin;C:\Users\fathalfath30\go\bin;C:\Users\fathalfath30\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\fathalfath30\AppData\Roaming\npm;c:\Program Files\Git\mingw64\bin;c:\Program Files\Git\usr\bin;C:\cmder\vendor\bin;C:\cmder
+  C:\Users\FATHAL~1\AppData\Local\Temp\yarn--1705845650895-0.45012092001188986;C:\Development\josgc\master-server-windows\node_modules\.bin;C:\Users\fathalfath30\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\fathalfath30\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;c:\python\python311\scripts\;c:\python\python311\;c:\program files (x86)\common files\intel\shared libraries\redist\intel64\compiler;c:\program files (x86)\common files\oracle\java\javapath;c:\programdata\oracle\java\javapath;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files\nvidia corporation\nvidia nvdlisr;c:\program files (x86)\windows kits\8.1\windows performance toolkit\;c:\program files\microsoft sql server\120\tools\binn\;c:\program files\microsoft sql server\130\tools\binn\;c:\programdata\composersetup\bin;c:\kubectl;c:\programdata\chocolatey\bin;c:\program files\docker\docker\resources\bin;c:\programdata\bin;c:\program files\dotnet\;c:\program files\microsoft sql server\150\tools\binn\;c:\program files\microsoft sql server\client sdk\odbc\170\tools\binn\;c:\users\fathalfath30\appdata\local\veniceunleashed\client;c:\program files\kubernetes\minikube;c:\program files\go\bin;c:\program files\putty\;c:\program files\git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\sdk\mariadb-11.4\bin;C:\Users\fathalfath30\AppData\Local\pnpm;C:\Users\fathalfath30\scoop\shims;C:\Users\fathalfath30\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2020.3.1\bin;C:\Program Files\JetBrains\GoLand 2021.1.3\bin;C:\Program Files\JetBrains\RubyMine 2021.3.2\bin;C:\Users\fathalfath30\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\DataGrip 2022.1.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\bin;C:\Users\fathalfath30\AppData\Local\gitkraken\bin;C:\Users\fathalfath30\go\bin;C:\Users\fathalfath30\AppData\Roaming\Composer\vendor\bin;C:\Users\fathalfath30\.dotnet\tools;C:\Program Files\JetBrains\PyCharm 2023.1.1\bin;C:\Users\fathalfath30\AppData\Local\GitHubDesktop\bin;C:\Users\fathalfath30\go\bin;C:\Users\fathalfath30\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\fathalfath30\AppData\Roaming\npm;c:\Program Files\Git\mingw64\bin;c:\Program Files\Git\usr\bin;C:\cmder\vendor\bin;C:\cmder
 
 Yarn version: 
   1.22.5
@@ -14,13 +14,13 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Development\josgc\master-server-windows\server-data\resources\[f30fm]\f30fm_admin\node_modules\esbuild-windows-64\esbuild.exe'
+  Error: EPERM: operation not permitted, unlink 'C:\Development\josgc\master-server-windows\server-data\resources\[fathalfath30]\fivemin\node_modules\esbuild-windows-64\esbuild.exe'
 
 npm manifest: 
   {
-    "name": "fivem-react",
+    "name": "fivemin",
     "version": "1.0.0",
-    "repository": "git@github.com:fathalfath30/fivem-react.git",
+    "repository": "git@github.com:fathalfath30/fivemin.git",
     "author": "fathalfath30 <fathalfath30@gmail.com>",
     "license": "MIT",
     "engines": {
@@ -31,6 +31,7 @@ npm manifest:
       "archiver": "^6.0.1",
       "bootstrap": "^5.3.2",
       "fs-extra": "^11.1.1",
+      "i18next": "^23.7.18",
       "jquery": "^3.7.1",
       "jszip": "^3.10.1",
       "node-stream-zip": "^1.15.0",
@@ -38,6 +39,7 @@ npm manifest:
       "react": "^18.2.0",
       "react-bootstrap": "^2.9.1",
       "react-dom": "^18.2.0",
+      "react-i18next": "^14.0.1",
       "react-router-dom": "^6.21.1",
       "sass": "^1.69.5"
     },
@@ -105,19 +107,19 @@ Lockfile:
     integrity sha512-uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==
   
   "@babel/core@^7.19.6":
-    version "7.23.6"
-    resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.23.6.tgz#8be77cd77c55baadcc1eae1c33df90ab6d2151d4"
-    integrity sha512-FxpRyGjrMJXh7X3wGLGhNDCRiwpWEF74sKjTLDJSG5Kyvow3QZaG0Adbqzi9ZrVjTWpsX+2cxWXD71NMg93kdw==
+    version "7.23.7"
+    resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.23.7.tgz#4d8016e06a14b5f92530a13ed0561730b5c6483f"
+    integrity sha512-+UpDgowcmqe36d4NwqvKsyPMlOLNGMsfMmQ5WGCu+siCe3t3dfe9njrzGfdN4qq+bcNUt0+Vw6haRxBOycs4dw==
     dependencies:
       "@ampproject/remapping" "^2.2.0"
       "@babel/code-frame" "^7.23.5"
       "@babel/generator" "^7.23.6"
       "@babel/helper-compilation-targets" "^7.23.6"
       "@babel/helper-module-transforms" "^7.23.3"
-      "@babel/helpers" "^7.23.6"
+      "@babel/helpers" "^7.23.7"
       "@babel/parser" "^7.23.6"
       "@babel/template" "^7.22.15"
-      "@babel/traverse" "^7.23.6"
+      "@babel/traverse" "^7.23.7"
       "@babel/types" "^7.23.6"
       convert-source-map "^2.0.0"
       debug "^4.1.0"
@@ -225,13 +227,13 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@babel/helper-validator-option/-/helper-validator-option-7.23.5.tgz#907a3fbd4523426285365d1206c423c4c5520307"
     integrity sha512-85ttAOMLsr53VgXkTbkx8oA6YTfT4q7/HzXSLEYmjcSTJPMPQtvq1BD79Byep5xMUYbGRzEpDsjUf3dyp54IKw==
   
-  "@babel/helpers@^7.23.6":
-    version "7.23.6"
-    resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.23.6.tgz#d03af2ee5fb34691eec0cda90f5ecbb4d4da145a"
-    integrity sha512-wCfsbN4nBidDRhpDhvcKlzHWCTlgJYUUdSJfzXb2NuBssDSIjc3xcb+znA7l+zYsFljAcGM0aFkN40cR3lXiGA==
+  "@babel/helpers@^7.23.7":
+    version "7.23.7"
+    resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.23.7.tgz#eb543c36f81da2873e47b76ee032343ac83bba60"
+    integrity sha512-6AMnjCoC8wjqBzDHkuqpa7jAKwvMo4dC+lr/TFBz+ucfulO1XMpDnwWPGBNwClOKZ8h6xn5N81W/R5OrcKtCbQ==
     dependencies:
       "@babel/template" "^7.22.15"
-      "@babel/traverse" "^7.23.6"
+      "@babel/traverse" "^7.23.7"
       "@babel/types" "^7.23.6"
   
   "@babel/highlight@^7.23.4":
@@ -288,9 +290,16 @@ Lockfile:
       "@babel/types" "^7.23.4"
   
   "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.8.7":
-    version "7.23.6"
-    resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.6.tgz#c05e610dc228855dc92ef1b53d07389ed8ab521d"
-    integrity sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==
+    version "7.23.7"
+    resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.7.tgz#dd7c88deeb218a0f8bd34d5db1aa242e0f203193"
+    integrity sha512-w06OXVOFso7LcbzMiDGt+3X7Rh7Ho8MmgPoWU3rarH+8upf+wSU/grlGbWzQyr3DkdN6ZeuMFjpdwW0Q+HxobA==
+    dependencies:
+      regenerator-runtime "^0.14.0"
+  
+  "@babel/runtime@^7.23.2":
+    version "7.23.8"
+    resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.8.tgz#8ee6fe1ac47add7122902f257b8ddf55c898f650"
+    integrity sha512-Y7KbAP984rn1VGMbGqKmBLio9V7y5Je9GvU4rQPCPinCyNfUcToxIXl06d59URp/F3LwinvODxab5N/G6qggkw==
     dependencies:
       regenerator-runtime "^0.14.0"
   
@@ -303,10 +312,10 @@ Lockfile:
       "@babel/parser" "^7.22.15"
       "@babel/types" "^7.22.15"
   
-  "@babel/traverse@^7.23.6":
-    version "7.23.6"
-    resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.6.tgz#b53526a2367a0dd6edc423637f3d2d0f2521abc5"
-    integrity sha512-czastdK1e8YByZqezMPFiZ8ahwVMh/ESl9vPgvgdB9AmFMGP5jfpFax74AQgl5zj4XHzqeYAg2l8PuUeRS1MgQ==
+  "@babel/traverse@^7.23.7":
+    version "7.23.7"
+    resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.7.tgz#9a7bf285c928cb99b5ead19c3b1ce5b310c9c305"
+    integrity sha512-tY3mM8rH9jM0YHFGyfC0/xf+SB5eKUu7HPj7/k3fpi9dAlsMc5YbQvDi0Sh2QTPXqMhyaAtzAr807TIyfQrmyg==
     dependencies:
       "@babel/code-frame" "^7.23.5"
       "@babel/generator" "^7.23.6"
@@ -628,9 +637,9 @@ Lockfile:
     integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
   
   "@types/node@^18.11.9":
-    version "18.19.3"
-    resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.3.tgz#e4723c4cb385641d61b983f6fe0b716abd5f8fc0"
-    integrity sha512-k5fggr14DwAytoA/t8rPrIz++lXK7/DqckthCmoZOKNsEbJkId4Z//BqgApXBUGrGddrigYa1oqheo/7YmW4rg==
+    version "18.19.4"
+    resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.4.tgz#89672e84f11a2c19543d694dac00ab8d7bc20ddb"
+    integrity sha512-xNzlUhzoHotIsnFoXmJB+yWmBvFZgKCI9TtPIEdYIMM1KWfwuY8zh7wvc1u1OAXlC7dlf6mZVx/s+Y5KfFz19A==
     dependencies:
       undici-types "~5.26.4"
   
@@ -664,9 +673,9 @@ Lockfile:
       "@types/react" "*"
   
   "@types/react@*", "@types/react@>=16.9.11", "@types/react@^18.0.25":
-    version "18.2.45"
-    resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.45.tgz#253f4fac288e7e751ab3dc542000fb687422c15c"
-    integrity sha512-TtAxCNrlrBp8GoeEp1npd5g+d/OejJHFxS3OWmrPBMFaVQMSN0OFySozJio5BHxTuTeug00AVXVAjfDSfk+lUg==
+    version "18.2.46"
+    resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.46.tgz#f04d6c528f8f136ea66333bc66abcae46e2680df"
+    integrity sha512-nNCvVBcZlvX4NU1nRRNV/mFl1nNRuTuslAJglQsq+8ldXe5Xv0Wd2f7WTE3jOxhLH2BFfiZGC6GCp+kHQbgG+w==
     dependencies:
       "@types/prop-types" "*"
       "@types/scheduler" "*"
@@ -1043,9 +1052,9 @@ Lockfile:
     integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
   
   caniuse-lite@^1.0.30001565:
-    version "1.0.30001571"
-    resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz#4182e93d696ff42930f4af7eba515ddeb57917ac"
-    integrity sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==
+    version "1.0.30001572"
+    resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001572.tgz#1ccf7dc92d2ee2f92ed3a54e11b7b4a3041acfa0"
+    integrity sha512-1Pbh5FLmn5y4+QhNyJE9j3/7dK44dGB83/ZMjv/qJk86TvDbjk0LosiZo0i0WB0Vx607qMX9jYrn1VLHCkN4rw==
   
   chalk@^2.4.1, chalk@^2.4.2:
     version "2.4.2"
@@ -1108,9 +1117,9 @@ Lockfile:
       static-extend "^0.1.1"
   
   classnames@^2.3.2:
-    version "2.3.3"
-    resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.3.tgz#897b59920fa3e336571c164366efad73e9d6418b"
-    integrity sha512-1inzZmicIFcmUya7PGtUQeXtcF7zZpPnxtQoYOrz0uiOBGlLFa4ik4361seYL2JCcRDIyfdFHiwQolESFlw+Og==
+    version "2.5.1"
+    resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+    integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
   
   cli-boxes@^2.2.0, cli-boxes@^2.2.1:
     version "2.2.1"
@@ -2095,6 +2104,13 @@ Lockfile:
     dependencies:
       lru-cache "^6.0.0"
   
+  html-parse-stringify@^3.0.1:
+    version "3.0.1"
+    resolved "https://registry.yarnpkg.com/html-parse-stringify/-/html-parse-stringify-3.0.1.tgz#dfc1017347ce9f77c8141a507f233040c59c55d2"
+    integrity sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==
+    dependencies:
+      void-elements "3.1.0"
+  
   http-cache-semantics@^4.0.0:
     version "4.1.1"
     resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz#abe02fcb2985460bf0323be664436ec3476a6d5a"
@@ -2104,6 +2120,13 @@ Lockfile:
     version "6.0.0"
     resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
     integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
+  
+  i18next@^23.7.18:
+    version "23.7.18"
+    resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.7.18.tgz#4f219e3702b08342c5519bc2cda7d09c67edebb9"
+    integrity sha512-b9N2KjRCYQNlUvE1Kc83g8knyUkL5NiZQOp9BsTR/v/LXk6Fzz+doOzTg2/826XK28mCgBkYLNAtixjE58qpCw==
+    dependencies:
+      "@babel/runtime" "^7.23.2"
   
   iconv-lite@^0.4.24:
     version "0.4.24"
@@ -3201,6 +3224,14 @@ Lockfile:
       loose-envify "^1.1.0"
       scheduler "^0.23.0"
   
+  react-i18next@^14.0.1:
+    version "14.0.1"
+    resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-14.0.1.tgz#75351b25be076ad7391360b5a111b59ca87e0b63"
+    integrity sha512-TMV8hFismBmpMdIehoFHin/okfvgjFhp723RYgIqB4XyhDobVMyukyM3Z8wtTRmajyFMZrBl/OaaXF2P6WjUAw==
+    dependencies:
+      "@babel/runtime" "^7.22.5"
+      html-parse-stringify "^3.0.1"
+  
   react-is@^16.13.1, react-is@^16.3.2:
     version "16.13.1"
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -3464,9 +3495,9 @@ Lockfile:
     integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
   
   sass@^1.69.5:
-    version "1.69.5"
-    resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.5.tgz#23e18d1c757a35f2e52cc81871060b9ad653dfde"
-    integrity sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==
+    version "1.69.6"
+    resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.6.tgz#88ae1f93facc46d2da9b0bdd652d65068bcfa397"
+    integrity sha512-qbRr3k9JGHWXCvZU77SD2OTwUlC+gNT+61JOLcmLm+XqH4h/5D+p4IIsxvpkB89S9AwJOyb5+rWNpIucaFxSFQ==
     dependencies:
       chokidar ">=3.0.0 <4.0.0"
       immutable "^4.0.0"
@@ -4007,6 +4038,11 @@ Lockfile:
       rollup "^2.79.1"
     optionalDependencies:
       fsevents "~2.3.2"
+  
+  void-elements@3.1.0:
+    version "3.1.0"
+    resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
+    integrity sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==
   
   warning@^4.0.0, warning@^4.0.3:
     version "4.0.3"

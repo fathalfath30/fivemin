@@ -20,7 +20,7 @@ FiveMin.QBCore = FiveMin.QBCore or {};
 local display = false;
 
 --- ToggleNUI
---- This function is use for show or hide the NUI it will set "display"  variable from "false" to "true" vice versa, 
+--- This function is use for show or hide the NUI it will set "display"  variable from "false" to "true" vice versa,
 --- and then SetNuiFocus as the "display" variable so you can use mouse and interact with the UI and lasting it will
 --- SendNUIMessage this will trigger the window.addEventListener("message", (){})
 function ToggleNUI()
@@ -49,7 +49,7 @@ function ToggleNUI()
 end
 
 --- registering command using app_command from the fxmanifest.lua
-RegisterCommand(FiveMin.Config.Command, function ()
+RegisterCommand(FiveMin.Config.Command, function()
     ToggleNUI()
 end, false)
 
@@ -57,7 +57,7 @@ end, false)
 --- it will create endpoint "/toggle-nui-callback"
 --- @param _ any
 --- @param cb function
-RegisterNUICallback('toggle-nui-callback', function (_, cb)
+RegisterNUICallback('toggle-nui-callback', function(_, cb)
     ToggleNUI()
 end)
 
@@ -77,11 +77,11 @@ end)
 Citizen.CreateThread(function()
     while display do
         Citizen.Wait(0)
-        
-        DisableControlAction(0, 1, display) -- LookLeftRight
-        DisableControlAction(0, 2, display) -- LookUpDown
-        DisableControlAction(0,24, display) -- Attack
-        DisableControlAction(0, 18, display) -- Enter
+
+        DisableControlAction(0, 1, display)   -- LookLeftRight
+        DisableControlAction(0, 2, display)   -- LookUpDown
+        DisableControlAction(0, 24, display)  -- Attack
+        DisableControlAction(0, 18, display)  -- Enter
         DisableControlAction(0, 106, display) -- VehicleMouseControlOverride
         DisableControlAction(0, 142, display) -- MeleeAttackAlternate
         DisableControlAction(0, 322, display) -- ESC
@@ -89,9 +89,9 @@ Citizen.CreateThread(function()
 end)
 
 
-Citizen.CreateThread(function ()
+Citizen.CreateThread(function()
     if not display then
-      ToggleNUI()
+        ToggleNUI()
     end
 
     Citizen.Wait(500)

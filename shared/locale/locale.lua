@@ -27,7 +27,7 @@ end
 --- @return Locale
 function Locale.New(_, opts)
   local self = setmetatable({}, Locale)
-  
+
   self:Extract(opts.Phrases or {})
   return self
 end
