@@ -89,10 +89,10 @@ Citizen.CreateThread(function()
 end)
 
 
--- Citizen.CreateThread(function ()
---     if not display then
---       ToggleNUI()
---     end
+Citizen.CreateThread(function ()
+    if not display then
+      ToggleNUI()
+    end
 
---     Citizen.Wait(500)
--- end)
+    Citizen.Wait(500)
+end)
